@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Switch_Keyboard_Cherry_MX")(type "KiCad")(uri "${KIPRJMOD}/Libraries/keyswitch-kicad-library/library/footprints/Switch_Keyboard_Cherry_MX.pretty")(options "")(descr ""))
+)
