@@ -1,0 +1,3 @@
+[submodule "Hardware/SuperButton/Libraries/1721-kicad-libraries"]
+	path = Hardware/SuperButton/Libraries/1721-kicad-libraries
+	url = https://github.com/FRC-1721/1721-kicad-libraries
