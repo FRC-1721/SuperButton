@@ -911,58 +911,6 @@
         )
       )
     )
-    (symbol "power:VBUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VBUS" (id 1) (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VBUS\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VBUS_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "VBUS_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
   )
 
   (junction (at 83.185 50.8) (diameter 0) (color 0 0 0 0)
@@ -1475,6 +1423,22 @@
     (pin "1" (uuid d0581d5d-38f5-4840-b5fe-d58f702cf480))
   )
 
+  (symbol (lib_id "power:+5V") (at 45.085 23.495 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 05f1f0c0-1fb1-4746-8d9b-f5d06dd44701)
+    (property "Reference" "#PWR?" (id 0) (at 45.085 27.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (id 1) (at 45.085 19.685 0))
+    (property "Footprint" "" (id 2) (at 45.085 23.495 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 45.085 23.495 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 74d3e80c-39a1-4a4d-aa56-a29f43a135aa))
+  )
+
   (symbol (lib_id "power:GND") (at 183.515 52.705 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 06e99256-3bf0-4d79-889a-244ac5cdf7e1)
@@ -1524,22 +1488,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5f355d21-fd7a-4d45-ab6f-e66003140f9a))
-  )
-
-  (symbol (lib_id "power:VBUS") (at 45.085 23.495 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 24487fac-3471-4a2e-a636-bc4b8b05c989)
-    (property "Reference" "#PWR0117" (id 0) (at 45.085 27.305 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VBUS" (id 1) (at 45.085 19.685 0))
-    (property "Footprint" "" (id 2) (at 45.085 23.495 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 45.085 23.495 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 60dadae6-b24d-4ded-baa2-ee706457142a))
   )
 
   (symbol (lib_id "power:+5V") (at 220.98 39.37 0) (unit 1)
@@ -2262,9 +2210,6 @@
     (path "/aa573f92-7d96-4a7c-9781-0bb82cc9ca14"
       (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
     )
-    (path "/24487fac-3471-4a2e-a636-bc4b8b05c989"
-      (reference "#PWR0117") (unit 1) (value "VBUS") (footprint "")
-    )
     (path "/e8def7ce-3c91-44dc-84e6-03f70fae4ce8"
       (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
     )
@@ -2276,6 +2221,9 @@
     )
     (path "/f2b8f2a6-f788-4bd1-9c39-0f293ebc5de3"
       (reference "#PWR0121") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/05f1f0c0-1fb1-4746-8d9b-f5d06dd44701"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/ec261643-1568-4081-bb06-d04055847d6b"
       (reference "C103") (unit 1) (value "5pf") (footprint "Capacitor_SMD:C_0805_2012Metric")
