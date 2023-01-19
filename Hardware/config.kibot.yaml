@@ -51,7 +51,6 @@ outputs:
       rotate_y: 2
       zoom: 3
       wait_render: 20
-      width: 600
 
   # ======
   # PCBWay
