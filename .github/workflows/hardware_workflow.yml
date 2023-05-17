@@ -19,6 +19,7 @@ jobs:
       matrix:
         variant:
           - SuperButtonX1
+          - SuperButtonX3
 
     steps:
       - uses: actions/checkout@v2
