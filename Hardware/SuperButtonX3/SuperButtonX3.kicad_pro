@@ -412,7 +412,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SuperButton.kicad_pro",
+    "filename": "SuperButtonX3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -457,24 +457,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "USB Data",
-        "pattern": "/USB+"
-      },
-      {
-        "netclass": "USB Data",
-        "pattern": "/USB-"
-      },
-      {
-        "netclass": "USB Data",
-        "pattern": "/USBA"
-      },
-      {
-        "netclass": "USB Data",
-        "pattern": "/USBB"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {

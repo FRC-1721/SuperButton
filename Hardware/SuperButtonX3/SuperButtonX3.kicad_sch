@@ -910,7 +910,10 @@
     )
   )
 
-  (junction (at 238.125 60.96) (diameter 0) (color 0 0 0 0)
+  (junction (at 211.709 41.529) (diameter 0) (color 0 0 0 0)
+    (uuid 4b2f7774-d355-4eab-9e32-ef410413b7e7)
+  )
+  (junction (at 263.525 62.23) (diameter 0) (color 0 0 0 0)
     (uuid 6140b487-0f11-4db4-b66f-ddfb7274d24d)
   )
   (junction (at 43.18 26.035) (diameter 0) (color 0 0 0 0)
@@ -918,6 +921,9 @@
   )
   (junction (at 104.775 29.845) (diameter 0) (color 0 0 0 0)
     (uuid c10a8e6c-450b-4c6a-8fe1-30dd8fa378b2)
+  )
+  (junction (at 211.455 60.96) (diameter 0) (color 0 0 0 0)
+    (uuid ca397fe0-8c08-416d-bc1e-679d42c27162)
   )
   (junction (at 22.86 66.04) (diameter 0) (color 0 0 0 0)
     (uuid fb7162b4-dca5-4247-8cfe-9560006d2af1)
@@ -928,8 +934,6 @@
   (no_connect (at 131.445 40.005) (uuid 428d0839-a562-43b1-aa95-1ee3c5979f05))
   (no_connect (at 41.91 53.975) (uuid 472809bc-bc49-48e1-812d-752678adda14))
   (no_connect (at 131.445 29.845) (uuid 5b8142fb-98c2-46dc-9c34-cfecba3f08f8))
-  (no_connect (at 131.445 52.705) (uuid 68c3d10a-81de-4f4c-b880-ecc45bc2afdd))
-  (no_connect (at 131.445 50.165) (uuid 758c0299-22df-4662-aff0-8615236721e5))
   (no_connect (at 131.445 32.385) (uuid 80b6afb4-74cc-4974-b1a1-1ded52f6d466))
   (no_connect (at 41.91 56.515) (uuid c8966fd1-371d-4489-8618-d9889e29a5f2))
 
@@ -937,7 +941,7 @@
     (stroke (width 0) (type default))
     (uuid 037758ae-d571-436d-877b-f4b4eb05b4b3)
   )
-  (wire (pts (xy 255.27 29.845) (xy 255.27 30.48))
+  (wire (pts (xy 274.955 26.67) (xy 274.955 27.305))
     (stroke (width 0) (type default))
     (uuid 0ba35d92-4569-4c37-a80c-b59b20051114)
   )
@@ -945,7 +949,7 @@
     (stroke (width 0) (type default))
     (uuid 0c92ef26-1fa3-49f5-aef4-44cfd633c592)
   )
-  (wire (pts (xy 227.33 60.96) (xy 231.14 60.96))
+  (wire (pts (xy 252.73 62.23) (xy 256.54 62.23))
     (stroke (width 0) (type default))
     (uuid 0e01c3ea-7121-4229-bb2b-43385f890bba)
   )
@@ -954,7 +958,7 @@
     (uuid 0e60ddb3-78fd-4d42-bd7b-b877cbc966da)
   )
 
-  (wire (pts (xy 242.57 29.845) (xy 242.57 30.48))
+  (wire (pts (xy 262.255 26.67) (xy 262.255 27.305))
     (stroke (width 0) (type default))
     (uuid 0f79464f-1b98-409a-b1c0-ef24ea357572)
   )
@@ -962,7 +966,7 @@
     (stroke (width 0) (type default))
     (uuid 0f7eb4f7-9756-45b7-86c0-3ccea7f4f234)
   )
-  (wire (pts (xy 224.155 33.655) (xy 220.98 33.655))
+  (wire (pts (xy 243.84 30.48) (xy 240.665 30.48))
     (stroke (width 0) (type default))
     (uuid 11c5c36e-adc7-4424-98d4-1c7f51b471fb)
   )
@@ -970,13 +974,17 @@
     (stroke (width 0) (type default))
     (uuid 15129c0d-ece9-44e3-9c07-2bc334ba450d)
   )
-  (wire (pts (xy 242.57 20.955) (xy 242.57 24.765))
+  (wire (pts (xy 262.255 17.78) (xy 262.255 21.59))
     (stroke (width 0) (type default))
     (uuid 18df6848-291a-4f45-b0db-077d4448d2d5)
   )
   (wire (pts (xy 41.91 26.035) (xy 43.18 26.035))
     (stroke (width 0) (type default))
     (uuid 1a1c106e-9c1b-4c6e-bb88-606fb2344b9f)
+  )
+  (wire (pts (xy 209.804 41.529) (xy 211.709 41.529))
+    (stroke (width 0) (type default))
+    (uuid 1b4845e6-bc2c-4df3-8fbd-c85a85059a45)
   )
   (wire (pts (xy 142.875 55.245) (xy 131.445 55.245))
     (stroke (width 0) (type default))
@@ -994,17 +1002,25 @@
     (stroke (width 0) (type default))
     (uuid 25e82b84-70a6-41f4-98c9-3fd6243189fa)
   )
+  (wire (pts (xy 200.66 66.675) (xy 211.455 66.675))
+    (stroke (width 0) (type default))
+    (uuid 26324127-17b9-4925-9bae-e6a262f9b916)
+  )
   (wire (pts (xy 41.91 41.275) (xy 48.895 41.275))
     (stroke (width 0) (type default))
     (uuid 2654ccf9-2334-4d3e-be88-e45715e80cdd)
   )
-  (wire (pts (xy 227.33 66.675) (xy 238.125 66.675))
+  (wire (pts (xy 252.73 67.945) (xy 263.525 67.945))
     (stroke (width 0) (type default))
     (uuid 2d745254-bf44-47de-bbe2-0a6a9c1785ed)
   )
-  (wire (pts (xy 236.855 20.955) (xy 242.57 20.955))
+  (wire (pts (xy 256.54 17.78) (xy 262.255 17.78))
     (stroke (width 0) (type default))
     (uuid 32ad6fe3-e9d1-4330-a081-63be03dec68f)
+  )
+  (wire (pts (xy 209.55 60.96) (xy 211.455 60.96))
+    (stroke (width 0) (type default))
+    (uuid 330b9922-a4f5-4f35-bb37-bc8832d43d01)
   )
   (wire (pts (xy 104.775 29.845) (xy 106.045 29.845))
     (stroke (width 0) (type default))
@@ -1015,7 +1031,7 @@
     (uuid 36d40b5c-041b-45a4-a115-209055d263d0)
   )
 
-  (wire (pts (xy 227.33 57.785) (xy 227.33 60.96))
+  (wire (pts (xy 252.73 59.055) (xy 252.73 62.23))
     (stroke (width 0) (type default))
     (uuid 388838bd-ad7a-495b-9e29-fe194f2881f5)
   )
@@ -1023,15 +1039,15 @@
     (stroke (width 0) (type default))
     (uuid 3b4cfd1e-581d-4ba8-adf3-49c8d8a2e37f)
   )
-  (wire (pts (xy 255.27 38.1) (xy 255.27 39.37))
+  (wire (pts (xy 274.955 34.925) (xy 274.955 36.195))
     (stroke (width 0) (type default))
     (uuid 3d6d6cf6-c1b8-4efd-a433-d08ac46044cf)
   )
-  (wire (pts (xy 234.315 33.655) (xy 229.235 33.655))
+  (wire (pts (xy 254 30.48) (xy 248.92 30.48))
     (stroke (width 0) (type default))
     (uuid 44dd3e10-d732-40ba-a8d3-65c215771edd)
   )
-  (wire (pts (xy 253.365 60.96) (xy 250.19 60.96))
+  (wire (pts (xy 278.765 62.23) (xy 275.59 62.23))
     (stroke (width 0) (type default))
     (uuid 47abc6b8-9cfd-4546-bb36-a082075840c6)
   )
@@ -1040,9 +1056,17 @@
     (uuid 4e0fda62-eed6-42ae-a3ac-914252629c0c)
   )
 
+  (wire (pts (xy 211.709 47.244) (xy 211.709 41.529))
+    (stroke (width 0) (type default))
+    (uuid 53b254ff-08af-49ba-93e7-117e791df33d)
+  )
   (wire (pts (xy 184.15 39.37) (xy 180.975 39.37))
     (stroke (width 0) (type default))
     (uuid 54d5a43d-137f-40c5-9511-7672d44a4bd5)
+  )
+  (wire (pts (xy 226.695 64.135) (xy 226.695 60.96))
+    (stroke (width 0) (type default))
+    (uuid 5ae58c12-f62b-44fc-b41b-a343888c8016)
   )
   (wire (pts (xy 179.07 25.4) (xy 179.07 26.035))
     (stroke (width 0) (type default))
@@ -1052,9 +1076,13 @@
     (stroke (width 0) (type default))
     (uuid 67269903-1498-47c4-8762-97c8cc358a99)
   )
-  (wire (pts (xy 222.885 31.115) (xy 222.885 28.575))
+  (wire (pts (xy 242.57 27.94) (xy 242.57 25.4))
     (stroke (width 0) (type default))
     (uuid 6825ced8-8ba9-4d13-b822-be59a6b40fae)
+  )
+  (wire (pts (xy 211.455 60.96) (xy 213.36 60.96))
+    (stroke (width 0) (type default))
+    (uuid 6be7981d-9b76-4e40-b790-daa223cc816a)
   )
   (wire (pts (xy 68.58 41.275) (xy 68.58 40.005))
     (stroke (width 0) (type default))
@@ -1064,11 +1092,23 @@
     (stroke (width 0) (type default))
     (uuid 754b2d86-e5e8-4691-9c39-1b80d9ae7b1e)
   )
+  (wire (pts (xy 211.455 66.675) (xy 211.455 60.96))
+    (stroke (width 0) (type default))
+    (uuid 76c45b15-9ded-45c5-bc22-9710c3e01014)
+  )
+  (wire (pts (xy 142.748 50.165) (xy 131.445 50.165))
+    (stroke (width 0) (type default))
+    (uuid 7bc1290c-28eb-4538-93b8-4efd8e6916ae)
+  )
   (wire (pts (xy 168.275 25.4) (xy 168.275 26.035))
     (stroke (width 0) (type default))
     (uuid 7f7357eb-e42e-4e70-b97e-a41cb905de0b)
   )
-  (wire (pts (xy 238.125 60.96) (xy 240.03 60.96))
+  (wire (pts (xy 226.695 60.96) (xy 223.52 60.96))
+    (stroke (width 0) (type default))
+    (uuid 7fe8c5df-350c-4729-8d06-858bf91a40e3)
+  )
+  (wire (pts (xy 263.525 62.23) (xy 265.43 62.23))
     (stroke (width 0) (type default))
     (uuid 859d5e1f-2bcb-4752-b055-1c4b31022d8e)
   )
@@ -1077,9 +1117,13 @@
     (uuid 8cb33a5d-fafe-4fc1-9e15-ccffa97af681)
   )
 
-  (wire (pts (xy 236.22 60.96) (xy 238.125 60.96))
+  (wire (pts (xy 261.62 62.23) (xy 263.525 62.23))
     (stroke (width 0) (type default))
     (uuid 91e9c016-4f8c-4868-9d03-e96770371fae)
+  )
+  (wire (pts (xy 200.66 57.785) (xy 200.66 60.96))
+    (stroke (width 0) (type default))
+    (uuid 923af4b5-947f-416c-aa72-cc4660f16c2e)
   )
   (wire (pts (xy 19.05 64.135) (xy 19.05 66.04))
     (stroke (width 0) (type default))
@@ -1094,6 +1138,10 @@
     (uuid 98da8e0c-e532-4556-a099-929dea6a0fb8)
   )
 
+  (wire (pts (xy 200.914 38.354) (xy 200.914 41.529))
+    (stroke (width 0) (type default))
+    (uuid 9d7cf002-de47-4c7c-bd62-b142f8077bef)
+  )
   (wire (pts (xy 22.86 66.04) (xy 26.67 66.04))
     (stroke (width 0) (type default))
     (uuid a30e1ad6-6703-4861-8fee-2ad5fbbcfa81)
@@ -1127,11 +1175,15 @@
     (stroke (width 0) (type default))
     (uuid b3bac34b-2efd-4d88-b28e-53979d5a7757)
   )
+  (wire (pts (xy 211.709 41.529) (xy 213.614 41.529))
+    (stroke (width 0) (type default))
+    (uuid b9c60d51-b3a6-4114-bb9c-043fab31b2c3)
+  )
   (wire (pts (xy 57.785 33.655) (xy 57.785 34.925))
     (stroke (width 0) (type default))
     (uuid bb9f387f-c0dd-4c69-942b-3bd15ffb7514)
   )
-  (wire (pts (xy 255.27 22.86) (xy 255.27 24.765))
+  (wire (pts (xy 274.955 19.685) (xy 274.955 21.59))
     (stroke (width 0) (type default))
     (uuid bcb44d3d-ccab-4d2d-9ad7-4b8f378b77d7)
   )
@@ -1139,7 +1191,7 @@
     (stroke (width 0) (type default))
     (uuid bd288af7-8f0a-4780-9df0-9bb26be0a673)
   )
-  (wire (pts (xy 253.365 64.135) (xy 253.365 60.96))
+  (wire (pts (xy 278.765 65.405) (xy 278.765 62.23))
     (stroke (width 0) (type default))
     (uuid be2a1948-7c49-4a68-a24b-c9cad65ed4ef)
   )
@@ -1152,12 +1204,16 @@
     (stroke (width 0) (type default))
     (uuid c187dd7b-07cd-44a5-84b4-272974f67033)
   )
+  (wire (pts (xy 226.949 44.704) (xy 226.949 41.529))
+    (stroke (width 0) (type default))
+    (uuid c448ca8c-6ff5-4bcd-869d-1f6e23a56565)
+  )
   (polyline (pts (xy 283.845 13.335) (xy 283.845 74.93))
     (stroke (width 0) (type default))
     (uuid db032501-373e-41bf-ba16-ab588b37fa45)
   )
 
-  (wire (pts (xy 238.125 66.675) (xy 238.125 60.96))
+  (wire (pts (xy 263.525 67.945) (xy 263.525 62.23))
     (stroke (width 0) (type default))
     (uuid db25b03d-1f0d-4037-a8a1-6fad92a35ec3)
   )
@@ -1169,7 +1225,7 @@
     (stroke (width 0) (type default))
     (uuid e0d4fee5-1bda-4416-a53f-932463aec82c)
   )
-  (wire (pts (xy 220.98 31.115) (xy 222.885 31.115))
+  (wire (pts (xy 240.665 27.94) (xy 242.57 27.94))
     (stroke (width 0) (type default))
     (uuid e1b04945-5033-4dc7-aff6-2d4938b218df)
   )
@@ -1177,9 +1233,13 @@
     (stroke (width 0) (type default))
     (uuid e35fe341-3f4a-45c7-a7dc-57ab9bff45f6)
   )
-  (wire (pts (xy 242.57 38.1) (xy 242.57 39.37))
+  (wire (pts (xy 262.255 34.925) (xy 262.255 36.195))
     (stroke (width 0) (type default))
     (uuid e7ae7c68-8019-45b3-975c-f84ef1ec701d)
+  )
+  (wire (pts (xy 142.748 52.705) (xy 131.445 52.705))
+    (stroke (width 0) (type default))
+    (uuid ea6c3e24-fdb8-41f3-a6a7-527679e70b09)
   )
   (wire (pts (xy 68.58 31.115) (xy 68.58 34.925))
     (stroke (width 0) (type default))
@@ -1203,13 +1263,31 @@
     (stroke (width 0) (type default))
     (uuid f75372a1-4b6b-4017-8ab6-efc535f3ea1a)
   )
+  (wire (pts (xy 200.66 60.96) (xy 204.47 60.96))
+    (stroke (width 0) (type default))
+    (uuid f98597b7-0a6d-492b-8156-2f5bf71efc0b)
+  )
+  (wire (pts (xy 200.914 47.244) (xy 211.709 47.244))
+    (stroke (width 0) (type default))
+    (uuid fa05c385-a077-4601-b990-e77a9916dc9f)
+  )
   (polyline (pts (xy 190.5 13.335) (xy 283.845 13.335))
     (stroke (width 0) (type default))
     (uuid fb574588-1408-45f7-aae8-13bfc40a3afd)
   )
+
+  (wire (pts (xy 226.949 41.529) (xy 223.774 41.529))
+    (stroke (width 0) (type default))
+    (uuid fb75bc85-28ca-4a6a-9cc6-8bf187dcfd68)
+  )
   (polyline (pts (xy 97.79 13.335) (xy 97.79 74.93))
     (stroke (width 0) (type default))
     (uuid ff9c3b97-6334-4022-9426-f9a8e49c50aa)
+  )
+
+  (wire (pts (xy 200.914 41.529) (xy 204.724 41.529))
+    (stroke (width 0) (type default))
+    (uuid ffedace4-78e4-42a5-82ef-3e5cfa6f6c74)
   )
 
   (text "USB" (at 30.48 15.875 0)
@@ -1229,9 +1307,17 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0ab06450-dda6-4a70-beff-21d646f50c80)
   )
-  (label "STAT" (at 236.855 20.955 0) (fields_autoplaced)
+  (label "STAT" (at 256.54 17.78 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1b66cc07-4312-412d-be66-ad4c973448c2)
+  )
+  (label "SW_SENSE2" (at 200.66 66.675 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1e70a258-8d79-4ad2-8bf1-f607bca32ef3)
+  )
+  (label "SW_SENSE3" (at 132.08 50.292 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2e3528c3-5223-4ebe-a0e0-752cb72c0a64)
   )
   (label "USB+" (at 48.895 43.815 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1245,11 +1331,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 64c74971-4a76-4249-baea-55f126c9b4e6)
   )
-  (label "SW_SENSE" (at 142.875 55.245 180) (fields_autoplaced)
+  (label "SW_SENSE1" (at 142.875 55.245 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7237e161-c205-483d-9bda-1693a43adc1e)
   )
-  (label "EXT" (at 234.315 33.655 180) (fields_autoplaced)
+  (label "EXT" (at 254 30.48 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 877e42de-975e-4b47-8571-fce410371b7f)
   )
@@ -1265,7 +1351,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c9574b19-1320-44da-8806-ac10426bd225)
   )
-  (label "SW_SENSE" (at 227.33 66.675 0) (fields_autoplaced)
+  (label "SW_SENSE1" (at 252.73 67.945 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d1035097-b50c-4162-8455-0854af307889)
   )
@@ -1277,30 +1363,38 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e90138bb-2d0a-4866-a7eb-31951a446067)
   )
+  (label "SW_SENSE2" (at 132.08 52.832 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ef71dc5c-2a3c-4e18-9185-1f681aedf23e)
+  )
   (label "USB+" (at 156.845 39.37 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f470b70f-263c-44d8-8e79-7ada22d358b4)
   )
+  (label "SW_SENSE3" (at 200.914 47.244 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fcd3917a-31e2-4508-b802-5a85c4431150)
+  )
 
-  (symbol (lib_id "Device:R_Small") (at 242.57 27.305 180) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 262.255 24.13 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0164c33c-54cd-4ad7-b814-81be019d913d)
-    (property "Reference" "R106" (at 243.84 26.035 0)
+    (property "Reference" "R106" (at 263.525 22.86 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "20k" (at 243.84 27.94 0)
+    (property "Value" "20k" (at 263.525 24.765 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 242.57 27.305 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 262.255 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 242.57 27.305 0)
+    (property "Datasheet" "~" (at 262.255 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 91cf067d-9b67-46c3-9d0d-ca323a197eb3))
     (pin "2" (uuid 549a813a-7f47-4d8c-baf0-bea15c6a0fa4))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "R106") (unit 1)
         )
@@ -1325,7 +1419,7 @@
     )
     (pin "1" (uuid 7638d579-928d-4d8b-9fbc-1324f5544a46))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#FLG0101") (unit 1)
         )
@@ -1350,7 +1444,7 @@
     )
     (pin "1" (uuid d0581d5d-38f5-4840-b5fe-d58f702cf480))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#FLG0102") (unit 1)
         )
@@ -1375,7 +1469,7 @@
     )
     (pin "1" (uuid 74d3e80c-39a1-4a4d-aa56-a29f43a135aa))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0113") (unit 1)
         )
@@ -1383,24 +1477,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 253.365 64.135 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 278.765 65.405 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06e99256-3bf0-4d79-889a-244ac5cdf7e1)
-    (property "Reference" "#PWR0111" (at 253.365 70.485 0)
+    (property "Reference" "#PWR0111" (at 278.765 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 253.365 67.945 0)
+    (property "Value" "GND" (at 278.765 69.215 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 253.365 64.135 0)
+    (property "Footprint" "" (at 278.765 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 253.365 64.135 0)
+    (property "Datasheet" "" (at 278.765 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5cd97f05-a8d1-41a3-ad75-272f33e2159c))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0111") (unit 1)
         )
@@ -1408,27 +1502,52 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 226.695 33.655 90) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 246.38 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 118b2a60-b2f3-4851-9f48-b3afddbc435f)
-    (property "Reference" "R108" (at 229.235 31.75 90)
+    (property "Reference" "R108" (at 248.92 28.575 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "DNF" (at 227.965 29.845 90)
+    (property "Value" "DNF" (at 247.65 26.67 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 226.695 33.655 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 246.38 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 226.695 33.655 0)
+    (property "Datasheet" "~" (at 246.38 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 26bf631f-ff72-41bb-bab8-e40d84ac028c))
     (pin "2" (uuid e25f9127-142f-4dd2-8616-075b1d6b66de))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "R108") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 200.914 38.354 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1ccd01ac-81a5-4683-b475-25b287b617f3)
+    (property "Reference" "#PWR03" (at 200.914 42.164 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 200.914 34.544 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 200.914 38.354 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 200.914 38.354 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c25cd799-63c2-45bd-813c-bbc99231e8e2))
+    (instances
+      (project "SuperButtonX3"
+        (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1451,7 +1570,7 @@
     )
     (pin "1" (uuid 70f28a76-5546-4009-bf65-5dda0f9a4664))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0122") (unit 1)
         )
@@ -1459,24 +1578,24 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 222.885 28.575 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 242.57 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 287b1397-2561-4f3e-92de-731216a67f2c)
-    (property "Reference" "#PWR0112" (at 222.885 32.385 0)
+    (property "Reference" "#PWR0112" (at 242.57 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 222.885 24.765 0)
+    (property "Value" "+5V" (at 242.57 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 222.885 28.575 0)
+    (property "Footprint" "" (at 242.57 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 222.885 28.575 0)
+    (property "Datasheet" "" (at 242.57 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7e29bf91-433d-457f-b125-c60b9584a282))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0112") (unit 1)
         )
@@ -1501,7 +1620,7 @@
     )
     (pin "1" (uuid 06bc5429-e33e-48e5-bf3b-a93b61d587c9))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0115") (unit 1)
         )
@@ -1532,7 +1651,7 @@
           (reference "SW201") (unit 1)
         )
       )
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "SW102") (unit 1)
         )
@@ -1558,7 +1677,7 @@
     (pin "1" (uuid a793b7fe-fca5-4095-8578-fb9b24009b51))
     (pin "2" (uuid 0f3b0411-ed11-4426-9e3b-31bf3dcd6bb9))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "C104") (unit 1)
         )
@@ -1583,7 +1702,7 @@
     )
     (pin "1" (uuid e0d72550-3fd7-42cd-811c-9b8ff4085c8b))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0109") (unit 1)
         )
@@ -1608,9 +1727,35 @@
     )
     (pin "1" (uuid 5d657580-30cf-426d-8661-a829952f73d2))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0106") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 207.01 60.96 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 62a77580-0541-4739-94c4-111cbbb967e7)
+    (property "Reference" "R107" (at 205.105 57.15 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "20k" (at 205.105 59.055 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 207.01 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 207.01 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 785a94af-84d4-4ba4-9a9d-2c65716ecf39))
+    (pin "2" (uuid 5b6b9383-e402-46ca-b821-e2b67fef080a))
+    (instances
+      (project "SuperButtonX3"
+        (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
+          (reference "R107") (unit 1)
         )
       )
     )
@@ -1633,7 +1778,7 @@
     )
     (pin "1" (uuid 2392ddd6-c4ad-4f14-a56c-8d2358663bb7))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0104") (unit 1)
         )
@@ -1658,7 +1803,7 @@
     )
     (pin "1" (uuid c2218229-51b6-4c51-8a60-727933be7e33))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0103") (unit 1)
         )
@@ -1684,7 +1829,7 @@
     (pin "1" (uuid 78fc9b04-dee0-4907-a595-c00e1401e20a))
     (pin "2" (uuid 6c1ac96c-fec9-4ce2-84c5-f1e94f2f57f7))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "R101") (unit 1)
         )
@@ -1709,7 +1854,7 @@
     )
     (pin "1" (uuid 94f282fa-8f3c-43d0-ae12-a1fa32cd5cf7))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "TP101") (unit 1)
         )
@@ -1752,7 +1897,7 @@
     (pin "8" (uuid c6fbeba5-6dad-4c96-8466-2e1e69305a3f))
     (pin "9" (uuid 5d1c9dfb-8c10-48ca-835b-45fb87c961c5))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "U101") (unit 1)
         )
@@ -1793,9 +1938,35 @@
     (pin "B9" (uuid 1b580fed-fe64-4810-ad64-2521e556299a))
     (pin "S1" (uuid 03cef99b-fd34-4896-bc7f-4787525b7068))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "J101") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 207.264 41.529 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7c4ff2e9-ebf4-4206-9a61-7c0b7ef548da)
+    (property "Reference" "R109" (at 205.359 37.719 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "20k" (at 205.359 39.624 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 207.264 41.529 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 207.264 41.529 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 051cc618-6a6f-4434-bf91-9fe698569c5e))
+    (pin "2" (uuid 9e5c543c-f240-44b3-bbe5-74de63cc1d36))
+    (instances
+      (project "SuperButtonX3"
+        (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
+          (reference "R109") (unit 1)
         )
       )
     )
@@ -1818,7 +1989,7 @@
     )
     (pin "1" (uuid 062cf40e-72f2-42ae-b99c-3e57df072123))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0101") (unit 1)
         )
@@ -1826,27 +1997,52 @@
     )
   )
 
-  (symbol (lib_id "Device:LED") (at 242.57 34.29 90) (unit 1)
+  (symbol (lib_id "Device:LED") (at 262.255 31.115 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8576d567-2a36-47cd-9246-b7b1b1891239)
-    (property "Reference" "D103" (at 245.745 35.2425 90)
+    (property "Reference" "D103" (at 265.43 32.0675 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "STAT" (at 245.745 37.7825 90)
+    (property "Value" "STAT" (at 265.43 34.6075 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 242.57 34.29 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 262.255 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 242.57 34.29 0)
+    (property "Datasheet" "~" (at 262.255 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7b2e38f2-4d62-4c2c-870f-0caaf9da6a44))
     (pin "2" (uuid 29758980-b383-4e23-a9d7-c3a0127580ac))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "D103") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 200.66 57.785 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8bce4d46-fac8-4552-b9b4-b1f2ae34c65f)
+    (property "Reference" "#PWR01" (at 200.66 61.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 200.66 53.975 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 200.66 57.785 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 200.66 57.785 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 97b6330f-ecc4-474e-ac80-6d40c8ab012a))
+    (instances
+      (project "SuperButtonX3"
+        (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1869,7 +2065,7 @@
     )
     (pin "1" (uuid 6afeafe2-aca5-4858-839e-98e25f38ee64))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0120") (unit 1)
         )
@@ -1895,7 +2091,7 @@
     (pin "1" (uuid a3343790-eb90-4c76-ba59-580179435181))
     (pin "2" (uuid 2a337fdf-a340-4eb7-a53a-c12dca1ef1bd))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "C101") (unit 1)
         )
@@ -1903,24 +2099,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 255.27 39.37 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 274.955 36.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e36bade-b0c8-4ce8-b918-646bbadc881e)
-    (property "Reference" "#PWR0114" (at 255.27 45.72 0)
+    (property "Reference" "#PWR0114" (at 274.955 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 255.27 43.18 0)
+    (property "Value" "GND" (at 274.955 40.005 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 255.27 39.37 0)
+    (property "Footprint" "" (at 274.955 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 255.27 39.37 0)
+    (property "Datasheet" "" (at 274.955 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1bedc552-3f0d-4c8c-ac15-b93384e35084))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0114") (unit 1)
         )
@@ -1944,7 +2140,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "H104") (unit 1)
         )
@@ -1952,24 +2148,24 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 227.33 57.785 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 252.73 59.055 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7705a53-d85f-4abb-82e1-66cbd54267ef)
-    (property "Reference" "#PWR0108" (at 227.33 61.595 0)
+    (property "Reference" "#PWR0108" (at 252.73 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 227.33 53.975 0)
+    (property "Value" "+5V" (at 252.73 55.245 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 227.33 57.785 0)
+    (property "Footprint" "" (at 252.73 59.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 227.33 57.785 0)
+    (property "Datasheet" "" (at 252.73 59.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4836c0ca-ff94-4dfa-a69f-9dae4e55e08e))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0108") (unit 1)
         )
@@ -1994,7 +2190,7 @@
     )
     (pin "1" (uuid 9fd02476-b418-42ca-ad14-79bd64d854c6))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0116") (unit 1)
         )
@@ -2020,7 +2216,7 @@
     (pin "1" (uuid a3f7ab22-5dc8-47f9-9063-3e42ceab4368))
     (pin "2" (uuid 3e4d7fd3-5e68-4eb8-915a-a82da986db09))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "R102") (unit 1)
         )
@@ -2028,24 +2224,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 242.57 39.37 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 262.255 36.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6d74761-25f6-4286-adf8-9ca93e2bd5a5)
-    (property "Reference" "#PWR0105" (at 242.57 45.72 0)
+    (property "Reference" "#PWR0105" (at 262.255 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 242.57 43.18 0)
+    (property "Value" "GND" (at 262.255 40.005 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 242.57 39.37 0)
+    (property "Footprint" "" (at 262.255 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 242.57 39.37 0)
+    (property "Datasheet" "" (at 262.255 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 214a456f-0f74-46dc-9bb3-33f2dc8830cb))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0105") (unit 1)
         )
@@ -2053,27 +2249,52 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_SPST") (at 245.11 60.96 0) (unit 1)
+  (symbol (lib_id "Switch:SW_SPST") (at 270.51 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8d5b78d-bdc1-4b0f-aeef-2faded5aec7d)
-    (property "Reference" "SW101" (at 245.11 54.61 0)
+    (property "Reference" "SW101" (at 270.51 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Switch" (at 245.11 57.15 0)
+    (property "Value" "Switch" (at 270.51 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB" (at 245.11 60.96 0)
+    (property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB" (at 270.51 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 245.11 60.96 0)
+    (property "Datasheet" "~" (at 270.51 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 696b5dcf-41f1-4229-8c75-678517f58303))
     (pin "2" (uuid e45fabca-6183-4e4e-bc87-54dd71d6e59b))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "SW101") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 226.949 44.704 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b9954dfb-12c4-4a78-bbb7-cdd795277e31)
+    (property "Reference" "#PWR04" (at 226.949 51.054 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 226.949 48.514 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 226.949 44.704 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 226.949 44.704 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3bd24a7c-5b9c-44c1-9e54-a0b1b278916a))
+    (instances
+      (project "SuperButtonX3"
+        (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2095,7 +2316,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "H101") (unit 1)
         )
@@ -2103,25 +2324,25 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x02_Socket") (at 215.9 33.655 180) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x02_Socket") (at 235.585 30.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd410010-06fc-4116-915a-cd9ecba0e451)
-    (property "Reference" "J103" (at 216.535 36.195 0)
+    (property "Reference" "J103" (at 236.22 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "EXT_LED" (at 216.535 38.735 0)
+    (property "Value" "EXT_LED" (at 236.22 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x02_P4mm_D0.5mm_OD1.5mm_Relief" (at 215.9 33.655 0)
+    (property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x02_P4mm_D0.5mm_OD1.5mm_Relief" (at 235.585 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 215.9 33.655 0)
+    (property "Datasheet" "~" (at 235.585 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5dede6d3-a72b-4ff6-936a-ac3245807413))
     (pin "2" (uuid 5be73148-c562-4a1d-b44f-4802fa3c689d))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "J103") (unit 1)
         )
@@ -2145,7 +2366,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "H103") (unit 1)
         )
@@ -2170,9 +2391,35 @@
     )
     (pin "1" (uuid 4e9a9aba-f5d3-47df-aef2-e7b23ec6b66a))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0110") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_SPST") (at 218.694 41.529 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d2764eb8-334d-49bb-bfb0-f64d8212eb62)
+    (property "Reference" "SW104" (at 218.694 35.56 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Switch" (at 218.694 38.1 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB" (at 218.694 41.529 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 218.694 41.529 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c71e791e-8f2d-498b-b46b-181e6b172923))
+    (pin "2" (uuid 68195593-0b8b-49e3-919d-433b7140e859))
+    (instances
+      (project "SuperButtonX3"
+        (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
+          (reference "SW104") (unit 1)
         )
       )
     )
@@ -2196,7 +2443,7 @@
     (pin "1" (uuid 504b5afb-5530-42b2-b2dd-808ddb070b69))
     (pin "2" (uuid 8623b990-dc03-4605-80dd-950ca94abc3a))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "R104") (unit 1)
         )
@@ -2204,25 +2451,25 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 233.68 60.96 270) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 259.08 62.23 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d89a1463-28b2-4268-a922-3641509bad1c)
-    (property "Reference" "R105" (at 231.775 57.15 90)
+    (property "Reference" "R105" (at 257.175 58.42 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "20k" (at 231.775 59.055 90)
+    (property "Value" "20k" (at 257.175 60.325 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 233.68 60.96 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 259.08 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 233.68 60.96 0)
+    (property "Datasheet" "~" (at 259.08 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3b40ec5f-2b42-4552-9852-527255599704))
     (pin "2" (uuid f2fc30cc-4914-4d88-bd6c-b8d24b9cbf8f))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "R105") (unit 1)
         )
@@ -2230,25 +2477,50 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 255.27 27.305 180) (unit 1)
+  (symbol (lib_id "power:GND") (at 226.695 64.135 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid e3ab051d-7cfe-44cd-9d4c-40c000eb64cb)
-    (property "Reference" "R103" (at 256.54 26.035 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "20k" (at 256.54 27.94 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 255.27 27.305 0)
+    (uuid dc35b14d-3127-43a2-ba20-5e031444da53)
+    (property "Reference" "#PWR02" (at 226.695 70.485 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 255.27 27.305 0)
+    (property "Value" "GND" (at 226.695 67.945 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 226.695 64.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 226.695 64.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9119c407-30e5-46f5-a141-31c105cc27db))
+    (instances
+      (project "SuperButtonX3"
+        (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 274.955 24.13 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e3ab051d-7cfe-44cd-9d4c-40c000eb64cb)
+    (property "Reference" "R103" (at 276.225 22.86 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "20k" (at 276.225 24.765 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 274.955 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 274.955 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f86e9a24-5e12-4981-8b9d-fc6ac6939f90))
     (pin "2" (uuid b0481c1a-fc69-402e-a7bc-00ce45be26bf))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "R103") (unit 1)
         )
@@ -2256,24 +2528,24 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 255.27 22.86 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 274.955 19.685 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4fa6a7f-198c-4d0c-8f7a-53efee62908f)
-    (property "Reference" "#PWR0107" (at 255.27 26.67 0)
+    (property "Reference" "#PWR0107" (at 274.955 23.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 255.27 19.05 0)
+    (property "Value" "+5V" (at 274.955 15.875 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 255.27 22.86 0)
+    (property "Footprint" "" (at 274.955 19.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 255.27 22.86 0)
+    (property "Datasheet" "" (at 274.955 19.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d0e03dfe-852d-4eb6-8e89-b7c939c4b3bc))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0107") (unit 1)
         )
@@ -2298,7 +2570,7 @@
     )
     (pin "1" (uuid 5a4c7086-8e88-4a9c-ab35-a02afd8ecd76))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0102") (unit 1)
         )
@@ -2306,25 +2578,51 @@
     )
   )
 
-  (symbol (lib_id "Device:LED") (at 255.27 34.29 90) (unit 1)
+  (symbol (lib_id "Switch:SW_SPST") (at 218.44 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f902210a-fb14-4258-8d8c-bd24a29f5593)
-    (property "Reference" "D104" (at 258.445 35.2425 90)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f6897451-bbe0-4dfd-b473-b4461645477f)
+    (property "Reference" "SW103" (at 218.44 55.88 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "PWR" (at 258.445 37.7825 90)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Value" "Switch" (at 218.44 58.42 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 255.27 34.29 0)
+    (property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB" (at 218.44 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 255.27 34.29 0)
+    (property "Datasheet" "~" (at 218.44 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0dcf9746-fa05-4108-a5ad-9785b6845e87))
+    (pin "2" (uuid b9a5db2c-bd77-4032-9f5a-bc69dd479d3b))
+    (instances
+      (project "SuperButtonX3"
+        (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
+          (reference "SW103") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 274.955 31.115 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f902210a-fb14-4258-8d8c-bd24a29f5593)
+    (property "Reference" "D104" (at 278.13 32.0675 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "PWR" (at 278.13 34.6075 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 274.955 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 274.955 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8e956fdd-94a9-4e4d-8a73-2563badd6336))
     (pin "2" (uuid bc17a2c6-e928-4df9-95eb-18c60a5bb7cf))
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "D104") (unit 1)
         )
@@ -2348,7 +2646,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SuperButtonX1"
+      (project "SuperButtonX3"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "H102") (unit 1)
         )
