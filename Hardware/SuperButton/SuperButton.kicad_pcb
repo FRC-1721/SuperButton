@@ -88,6 +88,10 @@
     )
   )
 
+  (property "FULL_REVISION" "e73e3dd")
+  (property "ISSUE" "2023-05-17")
+  (property "REVISION" "e73e3dd")
+
   (net 0 "")
   (net 1 "GND")
   (net 2 "+5V")
@@ -387,7 +391,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0c260a4f-1ecd-4deb-a9a0-e353ee84d487)
     )
-    (fp_text value "20k" (at -2.75 -3.75 135) (layer "F.SilkS")
+    (fp_text value "20k" (at -3.178611 -0.07408 135) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8f92dd98-3f96-47d1-a6f8-a6861215c23f)
     )
@@ -8698,11 +8702,11 @@
     (property "ki_keywords" "test point tp")
     (path "/77416a46-6c41-49b8-8463-e8e22cead658")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP101" (at 0 2.148) (layer "B.SilkS")
+    (fp_text reference "TP101" (at 0 2.148) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 399f97d2-1bc9-46bf-a81d-64e95c4a3502)
     )
-    (fp_text value "TestPoint" (at 0 -2.25) (layer "B.Fab")
+    (fp_text value "TestPoint" (at 0 -2.25) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e0060354-da86-4b41-a26d-dbd0a66d2157)
     )
