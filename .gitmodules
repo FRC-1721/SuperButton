@@ -4,3 +4,6 @@
 [submodule "Hardware/SuperButton/Libraries/keyswitch-kicad-library"]
 	path = Hardware/SuperButton/Libraries/keyswitch-kicad-library
 	url = https://github.com/perigoso/keyswitch-kicad-library.git
+[submodule "Hardware/SuperButton/Libraries/kenwoodfox-kicad-libraries"]
+	path = Hardware/SuperButton/Libraries/kenwoodfox-kicad-libraries
+	url = https://github.com/KenwoodFox/kenwoodfox-kicad-libraries.git
