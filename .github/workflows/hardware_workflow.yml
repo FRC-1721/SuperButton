@@ -9,6 +9,7 @@ on:
   pull_request:
     paths:
       - "Hardware/**"
+      - ".github/**"
 
 jobs:
   KiCad_Hardware:
@@ -41,7 +42,7 @@ jobs:
       - name: upload results
         uses: actions/upload-artifact@v2
         with:
-          name: Board-Hardware
+          name: ${{ matrix.variant }}
           path: _hardwareOutput
 
       - name: Discord notification if failed
@@ -100,6 +101,12 @@ jobs:
     # needs: [make_docs, KiCad_Hardware]
     needs: [KiCad_Hardware]
 
+    strategy:
+      matrix:
+        variant:
+          - SuperButtonX1
+          - SuperButtonX3
+
     steps:
       # Download artifacts
       # - uses: actions/download-artifact@v2
@@ -108,7 +115,7 @@ jobs:
 
       - uses: actions/download-artifact@v2
         with:
-          name: Board-Hardware
+          name: ${{ matrix.variant }}
 
       # - name: send custom message with args
       #   uses: appleboy/discord-action@master
@@ -123,7 +130,7 @@ jobs:
         with:
           webhook_id: ${{ secrets.WEBHOOK_ID }}
           webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
-          file: "*.png"
+          file: "${{ matrix.variant }}-3D.png"
 
   publish:
     # Only run on tags
@@ -132,6 +139,12 @@ jobs:
     name: Publish
     # needs: [make_docs, KiCad_Hardware]
     needs: [KiCad_Hardware]
+
+    strategy:
+      matrix:
+        variant:
+          - SuperButtonX1
+          - SuperButtonX3
 
     steps:
       # Be in our repo
@@ -146,7 +159,7 @@ jobs:
 
       - uses: actions/download-artifact@v2
         with:
-          name: Board-Hardware
+          name: ${{ matrix.variant }}
 
       - run: mkdir -p _staging/
 
@@ -155,8 +168,8 @@ jobs:
       - run: cp *.step _staging/
 
       # Copy gerbers
-      - run: cp PCBWay/*.zip _staging/Board-$(git rev-parse --short HEAD)-PCBWay.zip
-      - run: cp JLCPCB/*.zip _staging/Board-$(git rev-parse --short HEAD)-JLCPCB.zip
+      - run: cp PCBWay/*.zip _staging/${{ matrix.variant }}-$(git rev-parse --short HEAD)-PCBWay.zip
+      - run: cp JLCPCB/*.zip _staging/${{ matrix.variant }}-$(git rev-parse --short HEAD)-JLCPCB.zip
 
       - name: Upload Docs to release
         uses: svenstaro/upload-release-action@v2
