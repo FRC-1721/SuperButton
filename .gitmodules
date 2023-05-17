@@ -16,3 +16,6 @@
 [submodule "Hardware/SuperButtonX3/Libraries/kenwoodfox-kicad-libraries"]
 	path = Hardware/SuperButtonX3/Libraries/kenwoodfox-kicad-libraries
 	url = https://github.com/KenwoodFox/kenwoodfox-kicad-libraries.git
+[submodule "Firmware/lib/4xMacropad"]
+	path = Firmware/lib/4xMacropad
+	url = https://github.com/tobychui/4xMacropad.git

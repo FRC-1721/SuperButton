@@ -15,8 +15,11 @@ endif
 
 ALL: build
 
+configure:
+	arduino-cli core install CH55xDuino:mcs51 --additional-urls https://raw.githubusercontent.com/DeqingSun/ch55xduino/ch55xduino/package_ch55xduino_mcs51_index.json
+
 build:
-	pio run
+	arduino-cli compile --fqbn CH55xDuino:mcs51:ch552 src
 
 # For CI
 binaries:
@@ -24,21 +27,4 @@ binaries:
 	pio run -t .pio/build/attiny85/firmware.eep
 
 flash:
-	pio run -t upload
-
-deep:
-	pio run -t uploadeep
-
-clean:
-	pio run -t clean
-
-lint:
-	pio check
-
-test:
-	pio test --upload-port $(SERIAL_DEV)
-
-debug: flash monitor
-
-monitor:
-	pio device monitor --filter=direct --filter=time
+	arduino-cli upload -p $(SERIAL_DEV) --fqbn CH55xDuino:mcs51:ch552 src

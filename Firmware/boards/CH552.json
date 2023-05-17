@@ -1,0 +1,22 @@
+{
+  "build": {
+    "f_cpu": "24000000",
+    "size_iram": 256,
+    "size_xram": 1024,
+    "size_code": 14336,
+    "size_heap": 128,
+    "mcu": "ch552g",
+    "cpu": "mcs51"
+  },
+  "frameworks": [],
+  "upload": {
+    "maximum_ram_size": 1280,
+    "maximum_size": 14336,
+    "protocol": "stcgal",
+    "stcgal_protocol": "stc15",
+    "protocols": ["stcgal"]
+  },
+  "name": "Generic CH552",
+  "url": "http://www.wch.cn/product/CH552.html",
+  "vendor": "WCH"
+}
