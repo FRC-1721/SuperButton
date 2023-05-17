@@ -1,6 +1,7 @@
+[![Button Hardware](https://github.com/FRC-1721/SuperButton/actions/workflows/hardware_workflow.yml/badge.svg)](https://github.com/FRC-1721/SuperButton/actions/workflows/hardware_workflow.yml)
+[![Button Hardware](https://github.com/FRC-1721/SuperButton/actions/workflows/hardware_workflow.yml/badge.svg)](https://github.com/FRC-1721/SuperButton/actions/workflows/hardware_workflow.yml)
 
-
-![The Superbutton!](Static/SuperButton.jpg)
+![The Superbutton!](Static/SuperButton.png)
 
 # Welcome!
 
