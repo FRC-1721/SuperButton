@@ -1,9 +1,21 @@
-[submodule "Hardware/SuperButton/Libraries/1721-kicad-libraries"]
-	path = Hardware/SuperButton/Libraries/1721-kicad-libraries
+[submodule "Hardware/SuperButtonX1/Libraries/1721-kicad-libraries"]
+	path = Hardware/SuperButtonX1/Libraries/1721-kicad-libraries
 	url = https://github.com/FRC-1721/1721-kicad-libraries
-[submodule "Hardware/SuperButton/Libraries/keyswitch-kicad-library"]
-	path = Hardware/SuperButton/Libraries/keyswitch-kicad-library
+[submodule "Hardware/SuperButtonX1/Libraries/keyswitch-kicad-library"]
+	path = Hardware/SuperButtonX1/Libraries/keyswitch-kicad-library
 	url = https://github.com/perigoso/keyswitch-kicad-library.git
-[submodule "Hardware/SuperButton/Libraries/kenwoodfox-kicad-libraries"]
-	path = Hardware/SuperButton/Libraries/kenwoodfox-kicad-libraries
+[submodule "Hardware/SuperButtonX1/Libraries/kenwoodfox-kicad-libraries"]
+	path = Hardware/SuperButtonX1/Libraries/kenwoodfox-kicad-libraries
 	url = https://github.com/KenwoodFox/kenwoodfox-kicad-libraries.git
+[submodule "Hardware/SuperButtonX3/Libraries/1721-kicad-libraries"]
+	path = Hardware/SuperButtonX3/Libraries/1721-kicad-libraries
+	url = https://github.com/FRC-1721/1721-kicad-libraries
+[submodule "Hardware/SuperButtonX3/Libraries/keyswitch-kicad-library"]
+	path = Hardware/SuperButtonX3/Libraries/keyswitch-kicad-library
+	url = https://github.com/perigoso/keyswitch-kicad-library.git
+[submodule "Hardware/SuperButtonX3/Libraries/kenwoodfox-kicad-libraries"]
+	path = Hardware/SuperButtonX3/Libraries/kenwoodfox-kicad-libraries
+	url = https://github.com/KenwoodFox/kenwoodfox-kicad-libraries.git
+[submodule "Firmware/lib/4xMacropad"]
+	path = Firmware/lib/4xMacropad
+	url = https://github.com/tobychui/4xMacropad.git

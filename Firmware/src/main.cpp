@@ -3,16 +3,22 @@
  */
 
 #include <Arduino.h>
+#include "USBHIDMediaKeyboard.h"
+
+#define STAT = 30;
 
 void setup()
 {
-    pinMode(LED_BUILTIN, OUTPUT);
+    USBInit();
+    pinMode(30, OUTPUT);
 }
 
 void loop()
 {
-    digitalWrite(LED_BUILTIN, HIGH);
+    digitalWrite(30, HIGH);
     delay(1000);
-    digitalWrite(LED_BUILTIN, LOW);
+    digitalWrite(30, LOW);
     delay(1000);
+
+    Consumer_press(MEDIA_PLAY_PAUSE);
 }
