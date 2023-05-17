@@ -537,5 +537,9 @@
       ""
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "FULL_REVISION": "e73e3dd",
+    "ISSUE": "2023-05-17",
+    "REVISION": "e73e3dd"
+  }
 }
