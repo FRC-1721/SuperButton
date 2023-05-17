@@ -3,7 +3,7 @@ kibot:
 # Look into pcb_replace, looks sick! Also sch_replace
 
 preflight:
-  run_erc: false
+  run_erc: true
   update_xml: true
   run_drc: false
   check_zone_fills: false
