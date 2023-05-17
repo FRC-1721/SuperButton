@@ -9,7 +9,7 @@ on:
   pull_request:
     paths:
       - "Hardware/**"
-      - ".github/**"
+      # - ".github/**"
 
 jobs:
   KiCad_Hardware:
@@ -171,6 +171,9 @@ jobs:
       # Copy gerbers
       - run: cp PCBWay/*.zip _staging/${{ matrix.variant }}-$(git rev-parse --short HEAD)-PCBWay.zip
       - run: cp JLCPCB/*.zip _staging/${{ matrix.variant }}-$(git rev-parse --short HEAD)-JLCPCB.zip
+
+      # Copy BOMs
+      - run: cp *.csv _staging/
 
       - name: Upload Docs to release
         uses: svenstaro/upload-release-action@v2
