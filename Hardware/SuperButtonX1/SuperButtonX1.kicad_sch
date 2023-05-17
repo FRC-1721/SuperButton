@@ -1300,7 +1300,7 @@
     (pin "1" (uuid 91cf067d-9b67-46c3-9d0d-ca323a197eb3))
     (pin "2" (uuid 549a813a-7f47-4d8c-baf0-bea15c6a0fa4))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "R106") (unit 1)
         )
@@ -1325,7 +1325,7 @@
     )
     (pin "1" (uuid 7638d579-928d-4d8b-9fbc-1324f5544a46))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#FLG0101") (unit 1)
         )
@@ -1350,7 +1350,7 @@
     )
     (pin "1" (uuid d0581d5d-38f5-4840-b5fe-d58f702cf480))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#FLG0102") (unit 1)
         )
@@ -1375,7 +1375,7 @@
     )
     (pin "1" (uuid 74d3e80c-39a1-4a4d-aa56-a29f43a135aa))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0113") (unit 1)
         )
@@ -1400,7 +1400,7 @@
     )
     (pin "1" (uuid 5cd97f05-a8d1-41a3-ad75-272f33e2159c))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0111") (unit 1)
         )
@@ -1426,7 +1426,7 @@
     (pin "1" (uuid 26bf631f-ff72-41bb-bab8-e40d84ac028c))
     (pin "2" (uuid e25f9127-142f-4dd2-8616-075b1d6b66de))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "R108") (unit 1)
         )
@@ -1451,7 +1451,7 @@
     )
     (pin "1" (uuid 70f28a76-5546-4009-bf65-5dda0f9a4664))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0122") (unit 1)
         )
@@ -1476,7 +1476,7 @@
     )
     (pin "1" (uuid 7e29bf91-433d-457f-b125-c60b9584a282))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0112") (unit 1)
         )
@@ -1501,7 +1501,7 @@
     )
     (pin "1" (uuid 06bc5429-e33e-48e5-bf3b-a93b61d587c9))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0115") (unit 1)
         )
@@ -1532,7 +1532,7 @@
           (reference "SW201") (unit 1)
         )
       )
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "SW102") (unit 1)
         )
@@ -1558,7 +1558,7 @@
     (pin "1" (uuid a793b7fe-fca5-4095-8578-fb9b24009b51))
     (pin "2" (uuid 0f3b0411-ed11-4426-9e3b-31bf3dcd6bb9))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "C104") (unit 1)
         )
@@ -1583,7 +1583,7 @@
     )
     (pin "1" (uuid e0d72550-3fd7-42cd-811c-9b8ff4085c8b))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0109") (unit 1)
         )
@@ -1608,7 +1608,7 @@
     )
     (pin "1" (uuid 5d657580-30cf-426d-8661-a829952f73d2))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0106") (unit 1)
         )
@@ -1633,7 +1633,7 @@
     )
     (pin "1" (uuid 2392ddd6-c4ad-4f14-a56c-8d2358663bb7))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0104") (unit 1)
         )
@@ -1658,7 +1658,7 @@
     )
     (pin "1" (uuid c2218229-51b6-4c51-8a60-727933be7e33))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0103") (unit 1)
         )
@@ -1684,7 +1684,7 @@
     (pin "1" (uuid 78fc9b04-dee0-4907-a595-c00e1401e20a))
     (pin "2" (uuid 6c1ac96c-fec9-4ce2-84c5-f1e94f2f57f7))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "R101") (unit 1)
         )
@@ -1709,7 +1709,7 @@
     )
     (pin "1" (uuid 94f282fa-8f3c-43d0-ae12-a1fa32cd5cf7))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "TP101") (unit 1)
         )
@@ -1752,7 +1752,7 @@
     (pin "8" (uuid c6fbeba5-6dad-4c96-8466-2e1e69305a3f))
     (pin "9" (uuid 5d1c9dfb-8c10-48ca-835b-45fb87c961c5))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "U101") (unit 1)
         )
@@ -1793,7 +1793,7 @@
     (pin "B9" (uuid 1b580fed-fe64-4810-ad64-2521e556299a))
     (pin "S1" (uuid 03cef99b-fd34-4896-bc7f-4787525b7068))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "J101") (unit 1)
         )
@@ -1818,7 +1818,7 @@
     )
     (pin "1" (uuid 062cf40e-72f2-42ae-b99c-3e57df072123))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0101") (unit 1)
         )
@@ -1844,7 +1844,7 @@
     (pin "1" (uuid 7b2e38f2-4d62-4c2c-870f-0caaf9da6a44))
     (pin "2" (uuid 29758980-b383-4e23-a9d7-c3a0127580ac))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "D103") (unit 1)
         )
@@ -1869,7 +1869,7 @@
     )
     (pin "1" (uuid 6afeafe2-aca5-4858-839e-98e25f38ee64))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0120") (unit 1)
         )
@@ -1895,7 +1895,7 @@
     (pin "1" (uuid a3343790-eb90-4c76-ba59-580179435181))
     (pin "2" (uuid 2a337fdf-a340-4eb7-a53a-c12dca1ef1bd))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "C101") (unit 1)
         )
@@ -1920,7 +1920,7 @@
     )
     (pin "1" (uuid 1bedc552-3f0d-4c8c-ac15-b93384e35084))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0114") (unit 1)
         )
@@ -1944,7 +1944,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "H104") (unit 1)
         )
@@ -1969,7 +1969,7 @@
     )
     (pin "1" (uuid 4836c0ca-ff94-4dfa-a69f-9dae4e55e08e))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0108") (unit 1)
         )
@@ -1994,7 +1994,7 @@
     )
     (pin "1" (uuid 9fd02476-b418-42ca-ad14-79bd64d854c6))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0116") (unit 1)
         )
@@ -2020,7 +2020,7 @@
     (pin "1" (uuid a3f7ab22-5dc8-47f9-9063-3e42ceab4368))
     (pin "2" (uuid 3e4d7fd3-5e68-4eb8-915a-a82da986db09))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "R102") (unit 1)
         )
@@ -2045,7 +2045,7 @@
     )
     (pin "1" (uuid 214a456f-0f74-46dc-9bb3-33f2dc8830cb))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0105") (unit 1)
         )
@@ -2071,7 +2071,7 @@
     (pin "1" (uuid 696b5dcf-41f1-4229-8c75-678517f58303))
     (pin "2" (uuid e45fabca-6183-4e4e-bc87-54dd71d6e59b))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "SW101") (unit 1)
         )
@@ -2095,7 +2095,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "H101") (unit 1)
         )
@@ -2121,7 +2121,7 @@
     (pin "1" (uuid 5dede6d3-a72b-4ff6-936a-ac3245807413))
     (pin "2" (uuid 5be73148-c562-4a1d-b44f-4802fa3c689d))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "J103") (unit 1)
         )
@@ -2145,7 +2145,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "H103") (unit 1)
         )
@@ -2170,7 +2170,7 @@
     )
     (pin "1" (uuid 4e9a9aba-f5d3-47df-aef2-e7b23ec6b66a))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0110") (unit 1)
         )
@@ -2196,7 +2196,7 @@
     (pin "1" (uuid 504b5afb-5530-42b2-b2dd-808ddb070b69))
     (pin "2" (uuid 8623b990-dc03-4605-80dd-950ca94abc3a))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "R104") (unit 1)
         )
@@ -2222,7 +2222,7 @@
     (pin "1" (uuid 3b40ec5f-2b42-4552-9852-527255599704))
     (pin "2" (uuid f2fc30cc-4914-4d88-bd6c-b8d24b9cbf8f))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "R105") (unit 1)
         )
@@ -2248,7 +2248,7 @@
     (pin "1" (uuid f86e9a24-5e12-4981-8b9d-fc6ac6939f90))
     (pin "2" (uuid b0481c1a-fc69-402e-a7bc-00ce45be26bf))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "R103") (unit 1)
         )
@@ -2273,7 +2273,7 @@
     )
     (pin "1" (uuid d0e03dfe-852d-4eb6-8e89-b7c939c4b3bc))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0107") (unit 1)
         )
@@ -2298,7 +2298,7 @@
     )
     (pin "1" (uuid 5a4c7086-8e88-4a9c-ab35-a02afd8ecd76))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "#PWR0102") (unit 1)
         )
@@ -2324,7 +2324,7 @@
     (pin "1" (uuid 8e956fdd-94a9-4e4d-8a73-2563badd6336))
     (pin "2" (uuid bc17a2c6-e928-4df9-95eb-18c60a5bb7cf))
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "D104") (unit 1)
         )
@@ -2348,7 +2348,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "SuperButton"
+      (project "SuperButtonX1"
         (path "/e51b0d47-7e88-4bbf-adc2-21abe8ab62c1"
           (reference "H102") (unit 1)
         )

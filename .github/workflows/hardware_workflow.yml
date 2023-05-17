@@ -13,7 +13,12 @@ on:
 jobs:
   KiCad_Hardware:
     runs-on: ubuntu-latest
-    name: KiCad Hardware
+    name: SuperButton Hardware
+
+    strategy:
+      matrix:
+        variant:
+          - SuperButtonX1
 
     steps:
       - uses: actions/checkout@v2
@@ -24,13 +29,13 @@ jobs:
       - uses: INTI-CMNB/KiBot@v2_k7
         with:
           # Config file
-          config: Hardware/config.kibot.yaml
+          config: Hardware/${{ matrix.variant }}.yaml
           # Prefix for output in config file.
           dir: _hardwareOutput
 
           # Hardware Files
-          schema: "Hardware/SuperButton/SuperButton.kicad_sch"
-          board: "Hardware/SuperButton/SuperButton.kicad_pcb"
+          schema: "Hardware/${{ matrix.variant }}/${{ matrix.variant }}.kicad_sch"
+          board: "Hardware/${{ matrix.variant }}/${{ matrix.variant }}.kicad_pcb"
 
       - name: upload results
         uses: actions/upload-artifact@v2
