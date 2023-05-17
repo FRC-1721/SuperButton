@@ -19,7 +19,7 @@ configure:
 	arduino-cli core install CH55xDuino:mcs51 --additional-urls https://raw.githubusercontent.com/DeqingSun/ch55xduino/ch55xduino/package_ch55xduino_mcs51_index.json
 
 build:
-	arduino-cli compile --fqbn CH55xDuino:mcs51:ch552 src
+	arduino-cli compile --fqbn CH55xDuino:mcs51:ch552 src --library lib/4xMacropad/macrokey_distribute/src/userUsbHidMediaKeyboard
 
 # For CI
 binaries:

@@ -3,6 +3,7 @@
  */
 
 #include <Arduino.h>
+#include "USBHIDMediaKeyboard.h"
 
 #define STAT = 30;
 
@@ -18,4 +19,6 @@ void loop()
     delay(1000);
     digitalWrite(30, LOW);
     delay(1000);
+
+    Consumer_press(MEDIA_PLAY_PAUSE);
 }
