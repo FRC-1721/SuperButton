@@ -4,10 +4,16 @@
 
 # Welcome!
 
-This needs to be filled out!
+# Getting Started!
+
+Clone the repo with submodules!
+
+```shell
+git clone --recurse-submodules https://github.com/FRC-1721/SuperButton.git
+```
 
 
-# Init Submodules
+## Init Submodules
 
 Some libraries and resources are included as submodules, run the following
 command to initialize them before opening the main sch
