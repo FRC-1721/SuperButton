@@ -9028,7 +9028,7 @@
   (gr_text "V" (at 170.1 90) (layer "B.SilkS") (tstamp 6fa0f444-bc0c-4674-b294-078a8d8e737f)
     (effects (font (size 1.6 1.6) (thickness 0.4) bold) (justify mirror))
   )
-  (gr_text "Design by Jack\nSophmore Asst. Lead of Software" (at 159.9 114.1) (layer "F.SilkS") (tstamp b311b849-dba8-4c99-a3ee-3f06690abf75)
+  (gr_text "Design by Jack\nJunior, Asst. Safety Captain " (at 159.9 114.1) (layer "F.SilkS") (tstamp b311b849-dba8-4c99-a3ee-3f06690abf75)
     (effects (font (size 1.6 1.6) (thickness 0.4) bold) (justify left bottom))
   )
   (dimension (type aligned) (layer "Dwgs.User") (tstamp 1137a53e-3f13-42f7-a0c6-a200df514775)
