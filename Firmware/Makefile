@@ -16,10 +16,13 @@ endif
 ALL: build
 
 configure:
+	#arduino-cli config init
+	arduino-cli config set library.enable_unsafe_install true
 	arduino-cli core install CH55xDuino:mcs51 --additional-urls https://raw.githubusercontent.com/DeqingSun/ch55xduino/ch55xduino/package_ch55xduino_mcs51_index.json
+	arduino-cli lib install --git-url https://github.com/atc1441/CH_HID_Arduino.git
 
 build:
-	arduino-cli compile --fqbn CH55xDuino:mcs51:ch552 src --library lib/4xMacropad/macrokey_distribute/src/userUsbHidMediaKeyboard
+	arduino-cli compile --fqbn CH55xDuino:mcs51:ch552 src
 
 # For CI
 binaries:
@@ -28,3 +31,6 @@ binaries:
 
 flash:
 	arduino-cli upload -p $(SERIAL_DEV) --fqbn CH55xDuino:mcs51:ch552 src
+
+clean:
+	git clean -fdX
